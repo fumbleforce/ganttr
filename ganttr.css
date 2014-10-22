@@ -1,0 +1,67 @@
+
+
+.ganttr-canvas {
+    position: relative;
+    display: block;
+    background: white;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.ganttr-timeline {
+    position: absolute;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.ganttr-row {
+    position: absolute;
+}
+
+.ganttr-row:hover {
+    background: aliceblue;
+}
+
+.ganttr-label-container {
+    position: absolute;
+    background: aliceblue;
+}
+
+.ganttr-task {
+    position: absolute;
+}
+
+.ganttr-task:hover {
+    background: aliceblue;
+}
+
+.ganttr-task-label {
+    position: absolute;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.ganttr-task-box {
+    position: absolute;
+    background: teal;
+}
+
+.ganttr-modal {
+    z-index: 50;
+    position: absolute;
+    background: darkslategray;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.ganttr-modal .edit {
+    position: absolute;
+}
+
+.ganttr-modal .edit input {
+    display:block;
+    margin: 5px auto;
+}
+.ganttr-task {
+    z-index: 10;
+}
